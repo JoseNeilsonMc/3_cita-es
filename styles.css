@@ -1,0 +1,43 @@
+body{
+    background-image: url(./imagen/universo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:2rem;
+    width: 100vw;
+    height: 100vh;
+}
+.quote{
+    font-family: URW Bookman, Light Italic;
+    font-size: 2.8rem;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border:6px solid #fff;
+    color:#fff;
+    border-radius: 0.4rem;
+}
+.quote .text{
+    font-style: italic;
+    margin-bottom: 0.4rem;
+}
+.quote .author{
+    font-weight: bold;
+    color:#000;
+    filter:drop-shadow(0 0 0.2em rgb(229,229,229));
+}
+.button{
+    font-size: 1.4rem;
+    background-color: #0a2c07;
+    color:#fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem 1.2rem;
+    cursor: pointer;
+    transition: .4s;
+}
+.button:hover{
+    background-color: #22821b;
+    color:black;
+    box-shadow: 4px 4px 5px #000 ;
+}
